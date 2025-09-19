@@ -1,0 +1,35 @@
+---
+config:
+  layout: dagre
+---
+flowchart TD
+ subgraph subGraph0["Fundamentos de Datos y Analítica"]
+        IA("Inteligencia Artificial")
+        BD("Big Data")
+        EST("Estadística")
+  end
+ subgraph subGraph1["El Eje Central: Ciencia de Datos"]
+        CD("Ciencia de Datos")
+  end
+ subgraph subGraph2["Herramientas y Aplicaciones Clave"]
+        DM("Minería de Datos")
+        ML("Machine Learning")
+        DL("Deep Learning")
+        BI("Inteligencia de Negocios")
+  end
+    BD -- Proporciona el material de trabajo --> CD
+    EST -- Aporta los métodos y el rigor científico --> CD
+    IA -- Es el campo general que contiene a --> ML
+    CD -- Utiliza métodos de --> DM
+    CD -- Aplica algoritmos de --> ML
+    ML -- Es un subcampo avanzado de --> DL
+    DM -- Se implementa con técnicas de --> ML
+    CD -- Convierte los hallazgos en valor de negocio a través de --> BI
+    style IA fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style BD fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style EST fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style CD fill:#9f9,stroke:#333,stroke-width:2px,color:#000
+    style DM fill:#ffc,stroke:#333,stroke-width:2px,color:#000
+    style ML fill:#cff,stroke:#333,stroke-width:2px,color:#000
+    style DL fill:#cff,stroke:#333,stroke-width:2px,color:#000
+    style BI fill:#fcc,stroke:#333,stroke-width:2px,color:#000
