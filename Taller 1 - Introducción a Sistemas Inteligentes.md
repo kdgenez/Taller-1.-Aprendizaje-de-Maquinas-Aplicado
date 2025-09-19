@@ -1,7 +1,6 @@
 # Taller 1: Introducción a Sistemas Inteligentes.
 
 - Kevin Daniel Genez Valencia, C.C: 1128269097, kgenezv@eafit.edu.co
-- Juan Luis Amaya Arbeláez, C.C: XXXXXXXXXXX, jlamayaa@eafit.edu.co
 
 # Punto 1:
 
@@ -69,3 +68,4 @@ Teniendo en cuenta el archivo csv que te comparto, construye el codigo de python
 # **Prompt utilizado para obtener la información relacionada con los riesgos e implicaciones éticas de la inteligencia artificial**
 
 "Necesito que construyas un análisis sobre los riesgos e implicaciones éticas de la inteligencia artificial (IA). Explica los principales riesgos (ej. sesgos algorítmicos, pérdida de empleos, vigilancia masiva, dependencia tecnológica, autonomía de sistemas, posibles usos militares).Analiza las implicaciones éticas, considerando aspectos como justicia, privacidad, responsabilidad, transparencia, derechos humanos y equidad. Propón posibles estrategias o marcos éticos para mitigar estos riesgos (ej. regulación, principios éticos, gobernanza internacional, buenas prácticas de desarrollo).Organiza la respuesta en secciones claras y finaliza con un resumen crítico que conecte los riesgos con la necesidad de un uso responsable de la IA."\*"
+
